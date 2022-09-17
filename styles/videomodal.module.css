@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.vidButtonClose {
+    position: absolute;
+    top: 25px;
+    right: 73px;
+    background-color: transparent;
+    border: 0 solid transparent;
+    color: white;
+}

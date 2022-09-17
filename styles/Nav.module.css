@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    padding: 0 127px;
+    background-color: transparent;
+}
+
+.containerLogo{
+    background-color: transparent;
+}
+
+.containerUl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    background-color: transparent;
+}
+
+.containerUl ul {
+    margin: 0;
+    padding: 0;
+}
+
+.containerUl ul li {
+    display: inline;
+    margin-left: 18px;
+    background-color: transparent;
+}
+
+.bsFont {
+    font-weight: bolder;
+    font-size: 1.7rem;
+}

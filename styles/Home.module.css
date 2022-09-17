@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  width: auto;
+  min-height: 725px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+.mainContainer {
+  width: 50%;
+  min-height: auto;
+  background-color: transparent;
+}
+
+.innerMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  height: 70%;
+  background-color: transparent;
+}
+
+.innerMain h1 {
+  max-width: 500px;
+  background-color: transparent;
+}
+
+.innerMain p {
+  font-weight: 300;
+  background-color: transparent;
+  line-height: 1.5rem;
+}
+
+.innerMain span {
+  font-weight: bold;
+  color: #006aff;
+  transition: .3s ease-in-out;
+}
+
+.innerMain span:hover {
+  color: #0f35e8;
+}
+
+.bc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+}
+
+.carrouselContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  background-color: transparent;
+}
+
+/*second section*/
+.sectionContainer {
+  width: 100%;
+  min-height: auto;
+  background-color: transparent;
+  padding: 50px 100px;
+}
+
+.h2Container {
+  width: 50%;
+  padding-bottom: 55px;
+ }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 25px;
+  min-height: auto;
+  background-color: transparent;
+}
+
+.gridCell {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  /*padding: 15px;*/
+}
+
+.sectionMessage {
+  margin-top: 20px;
+  color: #818181;
+}
+

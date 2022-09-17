@@ -1,0 +1,48 @@
+.button {
+    width: auto;
+    height: auto;
+    padding: 15px 20px;
+
+    background-color: #006aff;
+    border: 1px solid #006aff;
+    border-radius: 5px;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #0f35e8;
+    border: 1px solid #0f35e8;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.buttonMid {
+    width: auto;
+    height: auto;
+    padding: 8px 50px;
+
+    background-color: #006aff;
+    border: 1px solid #006aff;
+    border-radius: 5px;
+}
+
+.buttonWhite {
+    width: auto;
+    height: auto;
+    padding: 15px 20px;
+    margin: 25px;
+    background-color: white;
+    border: 1px solid #006aff;
+    border-radius: 5px;
+    color: #006aff;
+}
+
+.buttonMidWhite {
+    width: auto;
+    height: auto;
+    padding: 8px 50px;
+    background-color: white;
+    border: 1px solid #006aff;
+    border-radius: 5px;
+}
