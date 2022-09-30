@@ -98,3 +98,44 @@
   color: #818181;
 }
 
+.lightBlueContainer {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  background-color: #CEE7F3;
+  border: 1px solid #CEE7F3;
+  border-radius: 25px;
+}
+
+.imageT {
+  width: 35%;
+  margin-bottom: 55px;
+}
+
+.stand {
+  width: 100%;
+  border: 0;
+  border-radius: 25px;
+}
+
+.standContainer {
+  position: relative;
+}
+
+.floatA {
+  position: absolute;
+  left: 15.5rem;
+  top: 8rem;
+}
+
+.floatB {
+  position: absolute;
+  right: 28rem;
+  top: 17rem;
+}
+
+.floatC {
+  position: absolute;
+  right: 42.5rem;
+  bottom: 12rem;
+}

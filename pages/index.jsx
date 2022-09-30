@@ -10,10 +10,14 @@ import {useEffect, useState} from "react";
 import VideoModal from "../components/VideoModal";
 import MainCard from "../components/MainCard";
 import GridAndColumn from "../components/GridAndColumn";
+import LightBlue from "../components/LightBlue";
+import FloatingButton from "../components/FloatingButton";
+import Video from "../components/Video";
+
 
 export default function Home() {
     const [modal, setModal] = useState(false)
-    const { container, mainContainer, sectionContainer, innerMain, bc, carrouselContainer, h2Container, grid, gridCell, sectionMessage } = styles;
+    const { container, mainContainer, floatA, floatB, floatC, standContainer, sectionContainer, imageT, innerMain, bc, carrouselContainer, h2Container, grid, gridCell, sectionMessage, lightBlueContainer, stand } = styles;
     const { containerVid, vidButton } = videoST
 
 
@@ -151,12 +155,39 @@ export default function Home() {
           </Section>
           <Section>
               <div>
-                  <div>
+                  <div className={h2Container}>
                       <h2>Solution sets for every business type and size.</h2>
                   </div>
                   <GridAndColumn />
               </div>
 
+          </Section>
+          <Section>
+              <div className={lightBlueContainer}>
+                  <LightBlue />
+              </div>
+          </Section>
+          <Section>
+              <div className={imageT}>
+                  <h2>Meet the new Square Stand.</h2>
+              </div>
+              <div className={standContainer}>
+                  <div className={floatA}>
+                      <FloatingButton text={"Smooth checkouts"} position={"left"}/>
+                  </div>
+
+                  <img src="https://images.ctfassets.net/2d5q1td6cyxq/6t57lHd0gyqnrIYePOl5eX/8c45ae9b254580d577f77b1ca1c39290/Intro0010_comp_USEN_v009.1060.jpg?w=4000&h=1800&fm=webp&q=85&fit=scale" alt="" className={stand}/>
+                  <div className={floatB}>
+                      <FloatingButton text={"Built-in payments"} position={"right"}/>
+                  </div>
+                  <div className={floatC}>
+                      <FloatingButton text={"Made to swivel"} position={"right"}/>
+                  </div>
+
+              </div>
+          </Section>
+          <Section>
+              <Video />
           </Section>
           <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" strategy={"lazyOnload"}/>
       </>

@@ -20,3 +20,21 @@ export const solutions = [
         img: "https://images.ctfassets.net/2d5q1td6cyxq/6Wtp8Rmisq6VTXQKJCZe7g/79ce0c1d61875ff26392685edf8e3740/PD03116_-_XL_USEN_large_business4000px.png?w=3096&h=2697&fm=webp&q=85&fit=scale"
     }
 ]
+
+export const pricing_message = [
+    {
+        icon: "https://images.ctfassets.net/2d5q1td6cyxq/4wTlF99nUmXHFT7FBkBFiT/a9f680b9a0fbc915a5e391e59d59e094/hp-free-trial.svg",
+        title: "Get started free.",
+        message: "Start any of our paid software products free for 30 days."
+    },
+    {
+        icon: "https://images.ctfassets.net/2d5q1td6cyxq/7cebBzKLZXyNBX5UCvKWK2/436e5400de399ab5b757beebcb2d4c95/hp-flat-rate.svg",
+        title: "Pay the same rate for every major card.",
+        message: "Clear transaction rates for all types of payments, whether in person, online, or card on file."
+    },
+    {
+        icon: "https://images.ctfassets.net/2d5q1td6cyxq/DiM8NcIWuQod2lLezqhWk/2aa8350cba622537c77ee081b589c646/hp-no-fees.svg",
+        title: "No hidden fees or long-term contracts.",
+        message: "Skip the startup fees, authorization fees, statement fees, PCI-compliance fees, and more."
+    }
+]

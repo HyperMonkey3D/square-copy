@@ -1,0 +1,76 @@
+
+
+.container {
+    position: relative;
+    display: flex;
+    background-color: transparent;
+
+}
+
+.smallContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.mediaContainer {
+    width: 41%;
+    padding: 25px;
+    background-color: transparent;
+}
+
+.mainImage {
+    width: 600px;
+    height: 800px;
+    border: 0;
+    border-radius: 25px;
+}
+
+.videoContainer {
+    width: 600px;
+    height: 800px;
+    background-color: transparent;
+    overflow-x: clip;
+    overflow-y: clip;
+    border: 0;
+    border-radius: 25px;
+}
+
+.videoContainer iframe {
+    transform: translate(-31%);
+    border: 0;
+    border-radius: 25px;
+
+}
+
+.div2 {
+    width: 600px;
+    height: 350px;
+    background-color: #006aff;
+}
+
+.smallimg {
+    width: 25%;
+}
+
+.floatMessage {
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    z-index: 10000;
+    width: 18%;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.smallFloatMessage {
+    position: absolute;
+    top: 23%;
+    left: 27%;
+    z-index: 10000;
+    width: 18%;
+    transform: rotate(90deg);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
