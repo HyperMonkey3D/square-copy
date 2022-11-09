@@ -17,7 +17,23 @@ import Video from "../components/Video";
 
 export default function Home() {
     const [modal, setModal] = useState(false)
-    const { container, mainContainer, floatA, floatB, floatC, standContainer, sectionContainer, imageT, innerMain, bc, carrouselContainer, h2Container, grid, gridCell, sectionMessage, lightBlueContainer, stand } = styles;
+    const { container,
+        mainContainer,
+        floatA, floatB,
+        floatC,
+        standContainer,
+        sectionContainer,
+        imageT,
+        innerMain,
+        bc,
+        carrouselContainer,
+        h2Container,
+        grid,
+        gridCell,
+        sectionMessage,
+        lightBlueContainer,
+        stand } = styles;
+
     const { containerVid, vidButton } = videoST
 
 
@@ -63,7 +79,9 @@ export default function Home() {
                           </div>
                           <div>
                               <p>
-                                  See how a business owner uses Square. <button onClick={handleModal} className={vidButton}><span> Play video <i className={`bi bi-play-circle`}></i></span></button>
+                                  See how a business owner uses Square. <button
+                                  onClick={handleModal}
+                                  className={vidButton}><span> Play video <i className={`bi bi-play-circle`}></i></span></button>
                               </p>
                               {modal && (
                                   <div className={containerVid}>

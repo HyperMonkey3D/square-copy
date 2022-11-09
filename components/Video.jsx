@@ -4,14 +4,17 @@ import {useState} from "react";
 
 const Video = () => {
 
-    const { mainImage, videoContainer, imgSmalCnt, floatMessage, smallFloatMessage, container, smallContainer, mediaContainer, smallimg } = videoST;
+    const { mainImage,
+        videoContainer,
+        imgSmalCnt,
+        floatMessage,
+        smallFloatMessage,
+        container,
+        smallContainer,
+        mediaContainer,
+        smallimg } = videoST;
 
     const [isHover, setIsHover] = useState(false);
-
-    const hovering = () => {
-
-        console.log("hovering")
-    }
 
     return(
         <div>
@@ -58,8 +61,6 @@ const Video = () => {
                         <img src="https://images.ctfassets.net/2d5q1td6cyxq/1JUNKJOzIhZ310xvrYeA7c/9e99eba4ade61595cdc390d7e538a72d/shop-the-setup-photodom-thumbnail.jpg?w=1502&h=1127&fm=webp&q=85&fit=scale" alt="" className={smallimg}/>
                     </div>
                 </div>
-
-
             </div>
         </div>
     )

@@ -3,7 +3,13 @@ import footerST from "../styles/Footer.module.css"
 
 const Footer = () => {
 
-    const {footer, mainContainer, firstInner, secondInner, secondInnerInner, secondInnerInneri, secondInnerIcons } = footerST;
+    const {footer,
+        mainContainer,
+        firstInner,
+        secondInner,
+        secondInnerInner,
+        secondInnerInneri,
+        secondInnerIcons } = footerST;
 
     return(
         <footer className={footer}>

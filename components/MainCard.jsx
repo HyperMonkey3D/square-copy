@@ -3,7 +3,12 @@ import cardST from "../styles/mainCard.module.css"
 
 const MainCard = ( {content} ) => {
 
-    const {cardContainer, ulContainer, img, cardInner, imgContainer, mainCard} = cardST;
+    const {cardContainer,
+        ulContainer,
+        img,
+        cardInner,
+        imgContainer,
+        mainCard} = cardST;
 
     const {title, message, links, links_title, tags, image} = content
     return(
@@ -17,9 +22,9 @@ const MainCard = ( {content} ) => {
                         <ul>
                             {
                                 tags
-                                    .map((item) => {
+                                    .map((item, index) => {
                                         return(
-                                            <li>{item}</li>
+                                            <li key={index}>{item}</li>
                                         )
                                     })
                             }

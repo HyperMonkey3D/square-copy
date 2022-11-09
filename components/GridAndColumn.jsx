@@ -4,16 +4,20 @@ import {useEffect, useState} from "react";
 
 const GridAndColumn = () => {
 
-    const {imgs, imgContainer, generalContainer, mainContainer, p, h3, focus, iconAnimation, iconsSection} = gridST;
+    const {imgs,
+        imgContainer,
+        generalContainer,
+        mainContainer,
+        p,
+        h3,
+        focus,
+        iconAnimation,
+        iconsSection} = gridST;
     const [isIndex, setIsIndex] = useState(0);
 
     const effect = () => {
 
     }
-
-    /*useEffect(() => {
-        console.log("is index", isIndex)
-    }, [isIndex]);*/
 
     return(
         <div className={generalContainer}>
@@ -28,7 +32,7 @@ const GridAndColumn = () => {
                                 <div>
                                     <div className={iconsSection}>
                                         <h3 className={index === isIndex ? focus : h3}>{title}</h3>
-                                        <div className={index === isIndex && iconAnimation}>
+                                        <div className={index === isIndex ? iconAnimation : null}>
                                             <i className={"bi bi-arrow-right-short"}></i>
                                         </div>
                                     </div>
