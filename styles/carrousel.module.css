@@ -3,14 +3,6 @@
     border-radius: 25px;
 }
 
-.immg {
-    border: 1px solid white;
-    border-radius: 25px;
-}
-
-.c {
-    background-color: red;
-    border: 1px solid blue;
-    border-radius: 25px;
-
+.img {
+    width: 300px;
 }

@@ -10,6 +10,34 @@
 .smallContainer {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    hight: 600px;
+    padding: 60px 0 30px 80px;
+    background-color: transparent;
+}
+
+.smallContainer h2 {
+    width: 50%;
+    font-size: 6.5rem;
+    padding-bottom: 50px;
+}
+
+.smallContainer p {
+    width: 80%;
+    font-size: 1.5rem;
+    padding-bottom: 25px;
+}
+
+
+.imgSmalCnt {
+    padding-top: 100px;
+}
+
+.imgSmalCnt img {
+    width: 300px;
+    border: 0;
+    border-radius: 25px;
 }
 
 .mediaContainer {

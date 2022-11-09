@@ -1,0 +1,105 @@
+.footer {
+    width: 100%;
+    height: 703px;
+    padding: 80px 127px;
+    margin: 0;
+    background-color: black;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.firstInner {
+    width: 100%;
+    height: 180px;
+    background-color: transparent;
+}
+
+.firstInner h2 {
+    font-size: 5.5rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+.firstInner a {
+    color: #006aff;
+    margin-right: 50px;
+    font-size: 1.6rem;
+}
+
+.secondInner {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.secondInnerInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    padding: 12px 40px 0 0;
+    background-color: transparent;
+}
+
+.secondInnerInner h3 {
+    font-size: 2.6rem;
+    color: white;
+}
+
+.secondInnerInner p {
+    width: 100%;
+    color: white;
+}
+
+.secondInnerInner small {
+    color: #7c7c7c;
+}
+
+.secondInnerInneri {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+}
+
+.secondInnerInneri input  {
+    width: 100%;
+    padding: 5px;
+    margin-right: 50px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.secondInnerInneri  button {
+    padding: 8px 25px;
+    background-color: #006aff;
+    color: white;
+    border: 1px solid #006aff;
+    border-radius: 8px;
+}
+
+.secondInnerIcons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 40%;
+    background-color: transparent;
+}
+
+.secondInnerIcons i {
+    margin-right: 30px;
+    font-size: 6rem;
+    color: white;
+}
